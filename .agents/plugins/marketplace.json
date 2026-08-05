@@ -1,0 +1,20 @@
+{
+  "name": "mysql-sql-review-marketplace",
+  "interface": {
+    "displayName": "Mysql Sql Review Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "mysql-sql-review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mysql-sql-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
