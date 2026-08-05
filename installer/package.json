@@ -1,0 +1,29 @@
+{
+  "name": "@su6/mysql-sql-review",
+  "version": "0.1.0",
+  "description": "One-command installer for the MySQL SQL Review Codex plugin.",
+  "license": "MIT",
+  "bin": {
+    "mysql-sql-review": "bin/mysql-sql-review.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su6/mysql-sql-review-marketplace.git",
+    "directory": "installer"
+  },
+  "bugs": {
+    "url": "https://github.com/su6/mysql-sql-review-marketplace/issues"
+  },
+  "homepage": "https://github.com/su6/mysql-sql-review-marketplace#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
