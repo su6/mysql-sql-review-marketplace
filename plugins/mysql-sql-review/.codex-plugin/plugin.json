@@ -1,0 +1,23 @@
+{
+  "name": "mysql-sql-review",
+  "version": "0.1.0",
+  "description": "Review or draft MySQL DDL, indexes, and DML with actionable risk findings.",
+  "author": {
+    "name": "MySQL SQL Review Contributors"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MySQL SQL Review",
+    "shortDescription": "Review MySQL DDL, indexes, and DML",
+    "longDescription": "Provides P0/P1/P2 findings, query-to-index mapping, and minimal remediation guidance.",
+    "developerName": "MySQL SQL Review Contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Review this MySQL CREATE TABLE statement.",
+      "Design MySQL composite indexes from these query patterns.",
+      "Review this DML for index, transaction, and deadlock risks."
+    ]
+  }
+}
