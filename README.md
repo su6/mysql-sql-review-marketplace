@@ -6,6 +6,14 @@ It provides structured P0/P1/P2 findings, query-to-index mapping, and minimal re
 
 ## Install
 
+Recommended one-command installation:
+
+```bash
+npx @amg95555/mysql-sql-review@latest install
+```
+
+Manual installation:
+
 ```bash
 codex plugin marketplace add su6/mysql-sql-review-marketplace --ref main \
   --sparse .agents/plugins \
