@@ -1,0 +1,4 @@
+interface:
+  display_name: "MySQL SQL Review"
+  short_description: "Review or draft MySQL DDL and DML"
+  default_prompt: "Review this SQL using the MySQL SQL Review rules. Report P0/P1/P2 findings, query-to-index evidence, and minimal remediation."
